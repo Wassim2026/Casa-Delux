@@ -9983,8 +9983,7 @@ a.ui-button:active,
 .hero_banner {
   position: relative;
   height: 100vh;
-  /* background: url('/assets/img/skyline.jpg') no-repeat center center/cover; */
-  background: url('/assets/img/skyline.jpg') no-repeat center center/cover;
+  background: url('../img/skyline.jpg') no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;

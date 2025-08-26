@@ -19,6 +19,10 @@
     <link rel="stylesheet" href="assets/css/daterangepicker.css">
     <link rel="stylesheet" href="assets/css/lightgallery.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"> 
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
   </head>
   <body>
     <!-- Start Preloader -->
@@ -27,7 +31,32 @@
     </div>
     <!-- End Preloader -->
     <!-- Start Header Section -->
-    <header class="cs_site_header cs_style_1 cs_transparent_header cs_primary_color cs_sticky_header">
+
+    <header class="glassy_header">
+      <div class="glassy_header_in">
+        <div class="glassy_branding">
+          <a href="index.html">
+            <img src="assets/img/logo (2).png" alt="Logo">
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <!-- <li><a href="rooms.html">Rooms</a></li> -->
+            <li><a href="rooms.html">Our Stays</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div>
+          <a href="rooms.html" class="glassy_btn">Book Your Stay </a>
+          <a href="listyourproperty.html" class="glassy_btn" style="margin-left: 10px;">List Your Property</a>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- <header class="cs_site_header cs_style_1 cs_transparent_header cs_primary_color cs_sticky_header">
       <div class="cs_main_header">
         <div class="container">
           <div class="cs_main_header_in">
@@ -41,7 +70,7 @@
                 <ul class="cs_nav_list">
                   <li class="menu-item-has-children cs_mega_menu">
                     <a href="index.html">Home</a>
-                    <!-- <ul class="cs_mega_wrapper cs_with_thumb">
+                    <ul class="cs_mega_wrapper cs_with_thumb">
                       <li>
                         <a href="index.html">
                           <img src="assets/img/demo/home-1.jpeg" alt="">Default Hotel & Resort
@@ -92,12 +121,12 @@
                           <img src="assets/img/demo/home-10.jpeg" alt="">Luxury Hotel
                         </a>
                       </li>
-                    </ul> -->
+                    </ul>
                   </li>
                   <li><a href="404.html">About Us</a></li>
                   <li class="menu-item-has-children">
                     <a href="404.html">Rooms</a>
-                    <!-- <ul>
+                    <ul>
                       <li><a href="rooms.html">Room Grid View</a></li>
                       <li><a href="rooms-list-view.html">Room List View</a></li>
                       <li><a href="room-details.html">Room Details V1</a></li>
@@ -105,11 +134,11 @@
                       <li><a href="room-details-v3.html">Room Details V3</a></li>
                       <li><a href="search-result.html">Room Search Result</a></li>
                       <li><a href="complete-reservation.html">Payment Page</a></li>
-                    </ul> -->
+                    </ul>
                   </li>
                   <li><a href="404.html">Services</a></li>
                   <li><a href="404.html">Restaurant</a></li>
-                  <!-- <li class="menu-item-has-children">
+                  <li class="menu-item-has-children">
                     <a href="">Pages</a>
                     <ul>
                       <li><a href="restaurant.html">Restaurant & Bar</a></li>
@@ -120,8 +149,8 @@
                       <li><a href="faq.html">FAQ</a></li>
                       <li><a href="404.html">Error 404</a></li>
                     </ul>
-                  </li> -->
-                  <!-- <li class="menu-item-has-children">
+                  </li>
+                  <li class="menu-item-has-children">
                     <a href="blog.html">Blog</a>
                     <ul>
                       <li><a href="blog.html">Sidebar Blog</a></li>
@@ -129,7 +158,7 @@
                       <li><a href="blog-list.html">Blog List View</a></li>
                       <li><a href="blog-details.html">Blog Details</a></li>
                     </ul>
-                  </li> -->
+                  </li>
                   <li><a href="404.html">Contact</a></li>
                 </ul>
               </nav>
@@ -142,12 +171,25 @@
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
     <!-- End Header Section -->
 
     <!-- Start Hero Section -->
     <section>
-      <div class="cs_parallax_slider loading overflow-hidden position-relative">
+      <!-- Hero Section -->
+      <section class="hero_banner">
+        <div class="hero_overlay">
+          <div class="hero_content">
+            <h1>CASA DELUX VACATION <br>HOMES</h1>
+            <div class="hero_buttons">
+              <a href="rooms.html" class="hero_btn hero_btn_primary">Book Your Stay</a>
+              <a href="listyourproperty.html" class="hero_btn hero_btn_secondary">List Your Properties</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <div class="cs_parallax_slider loading overflow-hidden position-relative">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="cs_hero cs_style_1 cs_center text-center position-relative">
@@ -210,8 +252,8 @@
             </div>
           </div>
         </div>
-        <!-- If we need navigation buttons -->
-        <div class="cs_slider_navigation cs_white_color">
+        If we need navigation buttons -->
+        <!-- <div class="cs_slider_navigation cs_white_color">
           <div class="cs_swiper_button_prev">
             <svg width="56" height="16" viewBox="0 0 56 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0.292893 7.29289C-0.0976311 7.68342 -0.0976311 8.31658 0.292893 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292893 7.29289ZM56 7L1 7V9L56 9V7Z" fill="currentColor"/>
@@ -223,8 +265,8 @@
             </svg>          
           </div>
         </div>
-      </div>
-      <div class="cs_half_ternary_bg position-relative">
+      </div> --> 
+      <!-- <div class="cs_half_ternary_bg position-relative">
         <div class="container">
           <form action="search-result.html" class="cs_form cs_style_4 cs_accent_bg cs_radius_5 position-relative cs_zindex_10">
             <div class="cs_date_items">
@@ -303,47 +345,47 @@
             </div>
           </form>
         </div>
-      </div>
+      </div> -->
     </section>
     <!-- End Hero Section -->
+    <div class="features-section">
+    <div class="container my-5">
+      <div class="row text-center">
 
-    <!-- Start About Section -->
-    <section class="cs_gray_bg">
-      <div class="cs_height_141 cs_height_lg_75"></div>
-      <div class="container">
-        <div class="cs_about cs_style_1">
-          <div class="cs_section_heading cs_style_1 text-center">
-            <p class="cs_section_subtitle cs_medium cs_letter_spacing_1 cs_mb_28 cs_mb_lg_15 text-uppercase wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">WHY CHOOSE US</p>
-            <h2 class="cs_fs_67 cs_mb_45">Curated to match your preferences and desires, our selection includes luxury resorts, exclusive tours, and transfers for an unparalleled  experience</h2>
-            <a href="404.html" class="cs_btn cs_style_2 cs_medium cs_radius_5 cs_fs_15">
-              Learn More 
-              <span>
-                <i>
-                  <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"/>
-                  </svg>                                        
-                </i>
-                <i>
-                  <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"/>
-                  </svg>                   
-                </i>
-              </span>
-            </a>
+        <div class="col-md-4">
+          <div class="feature-box">
+            <i class="bi bi-building"></i>
+            <h2>Prime Locations</h5>
+            <p>Downtown & Marina</p>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="feature-box">
+            <i class="bi bi-house-door"></i>
+            <h2>Fully Furnished</h5>
+            <p>Luxury Apartments</p>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="feature-box">
+            <i class="bi bi-headset"></i>
+            <h2>24/7 Guest Support</h5>
+            <p>& Easy Booking</p>
           </div>
         </div>
       </div>
-      <div class="cs_height_150 cs_height_lg_80"></div>
-    </section>
-    <!-- End About Section -->
+    </div>
+    </div>
 
     <!-- Start Rooms Section -->
-    <section>
-      <div class="cs_height_141 cs_height_lg_75"></div>
+    <section style="background-color: #fce5c587;">
+      <!-- <div class="cs_height_141 cs_height_lg_75"></div> -->
       <div class="container">
         <div class="cs_section_heading cs_style_1 text-center">
-          <p class="cs_section_subtitle cs_medium cs_letter_spacing_1 cs_mb_28 cs_mb_lg_15 text-uppercase">Rooms & Suites</p>
-          <h2 class="cs_fs_67 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Our Exquisite Rooms & Suites Collection</h2>
+          <p class="cs_section_subtitle cs_medium cs_letter_spacing_1 cs_mb_28 cs_mb_lg_15 text-uppercase">CHOOSE YOUR STAY</p>
+          <h2 class="cs_fs_67 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Our Exquisite Apartment & Studio Collection</h2>
         </div>
         <div class="cs_height_80 cs_height_lg_50"></div>
       </div>
@@ -353,13 +395,13 @@
             <div class="cs_slider_wrapper">
               <div class="cs_slide">
                 <div class="cs_card cs_style_1">
-                  <a href="404.html" class="cs_card_thumb d-block cs_radius_5 overflow-hidden position-relative cs_primary_bg">
-                    <img src="assets/img/room_1.jpeg" alt="Room">
-                    <img src="assets/img/room_1.jpeg" alt="Room">
+                  <a href="rooms.html" class="cs_card_thumb d-block cs_radius_5 overflow-hidden position-relative cs_primary_bg">
+                    <img src="assets/img/room_1 (1).jpeg" alt="Room">
+                    <img src="assets/img/room_1 (1).jpeg" alt="Room">
                   </a>
                   <div class="cs_card_info position-relative">
-                    <h2 class="cs_card_title cs_fs_50 cs_mb_4"><a href="404.html">Deluxe Room</a></h2>
-                    <div class="cs_card_price cs_mb_17">
+                    <h2 class="cs_card_title cs_fs_50 cs_mb_4"><a href="rooms.html">Studio </a></h2>
+                    <!-- <div class="cs_card_price cs_mb_17">
                       <span class="cs_primary_color">From</span>
                       <span class="cs_accent_color cs_fs_38 cs_primary_font">$320/Night</span>
                     </div>
@@ -367,8 +409,8 @@
                       <li>110 Sq</li>
                       <li>3-5 Guests</li>
                       <li>Free Wi-Fi</li>
-                    </ul>
-                    <a href="404.html" class="cs_card_btn cs_center">
+                    </ul> -->
+                    <a href="rooms.html" class="cs_card_btn cs_center">
                       <i class="fa-solid fa-chevron-right"></i>
                     </a>
                   </div>
@@ -376,13 +418,13 @@
               </div>
               <div class="cs_slide">
                 <div class="cs_card cs_style_1">
-                  <a href="404.html" class="cs_card_thumb d-block cs_radius_5 overflow-hidden position-relative cs_primary_bg">
-                    <img src="assets/img/room_2.jpeg" alt="Room">
-                    <img src="assets/img/room_2.jpeg" alt="Room">
+                  <a href="rooms.html" class="cs_card_thumb d-block cs_radius_5 overflow-hidden position-relative cs_primary_bg">
+                    <img src="assets/img/room_2 (1).jpeg" alt="Room">
+                    <img src="assets/img/room_2 (1).jpeg" alt="Room">
                   </a>
                   <div class="cs_card_info position-relative">
-                    <h2 class="cs_card_title cs_fs_50 cs_mb_4"><a href="404.html">Standard Room</a></h2>
-                    <div class="cs_card_price cs_mb_17">
+                    <h2 class="cs_card_title cs_fs_50 cs_mb_4"><a href="rooms.html">1-Bedroom</a></h2>
+                    <!-- <div class="cs_card_price cs_mb_17">
                       <span class="cs_primary_color">From</span>
                       <span class="cs_accent_color cs_fs_38 cs_primary_font">$450/Night</span>
                     </div>
@@ -390,8 +432,8 @@
                       <li>110 Sq</li>
                       <li>3-5 Guests</li>
                       <li>Free Wi-Fi</li>
-                    </ul>
-                    <a href="404.html" class="cs_card_btn cs_center">
+                    </ul> -->
+                    <a href="rooms.html" class="cs_card_btn cs_center">
                       <i class="fa-solid fa-chevron-right"></i>
                     </a>
                   </div>
@@ -399,13 +441,13 @@
               </div>
               <div class="cs_slide">
                 <div class="cs_card cs_style_1">
-                  <a href="404.html" class="cs_card_thumb d-block cs_radius_5 overflow-hidden position-relative cs_primary_bg">
-                    <img src="assets/img/room_3.jpeg" alt="Room">
-                    <img src="assets/img/room_3.jpeg" alt="Room">
+                  <a href="rooms.html" class="cs_card_thumb d-block cs_radius_5 overflow-hidden position-relative cs_primary_bg">
+                    <img src="assets/img/room_3 (1).jpeg" alt="Room">
+                    <img src="assets/img/room_3 (1).jpeg" alt="Room">
                   </a>
                   <div class="cs_card_info position-relative">
-                    <h2 class="cs_card_title cs_fs_50 cs_mb_4"><a href="404.html">Superior Room</a></h2>
-                    <div class="cs_card_price cs_mb_17">
+                    <h2 class="cs_card_title cs_fs_50 cs_mb_4"><a href="rooms.html">2-Bedroom</a></h2>
+                    <!-- <div class="cs_card_price cs_mb_17">
                       <span class="cs_primary_color">From</span>
                       <span class="cs_accent_color cs_fs_38 cs_primary_font">$520/Night</span>
                     </div>
@@ -413,8 +455,8 @@
                       <li>110 Sq</li>
                       <li>3-5 Guests</li>
                       <li>Free Wi-Fi</li>
-                    </ul>
-                    <a href="404.html" class="cs_card_btn cs_center">
+                    </ul> -->
+                    <a href="rooms.html" class="cs_card_btn cs_center">
                       <i class="fa-solid fa-chevron-right"></i>
                     </a>
                   </div>
@@ -422,13 +464,13 @@
               </div>
               <div class="cs_slide">
                 <div class="cs_card cs_style_1">
-                  <a href="404.html" class="cs_card_thumb d-block cs_radius_5 overflow-hidden position-relative cs_primary_bg">
+                  <a href="rooms.html" class="cs_card_thumb d-block cs_radius_5 overflow-hidden position-relative cs_primary_bg">
                     <img src="assets/img/room_1.jpeg" alt="Room">
                     <img src="assets/img/room_1.jpeg" alt="Room">
                   </a>
                   <div class="cs_card_info position-relative">
-                    <h2 class="cs_card_title cs_fs_50 cs_mb_4"><a href="404.html">Deluxe Room</a></h2>
-                    <div class="cs_card_price cs_mb_17">
+                    <h2 class="cs_card_title cs_fs_50 cs_mb_4"><a href="rooms.html">Studio</a> </h2>
+                    <!-- <div class="cs_card_price cs_mb_17">
                       <span class="cs_primary_color">From</span>
                       <span class="cs_accent_color cs_fs_38 cs_primary_font">$320/Night</span>
                     </div>
@@ -436,8 +478,8 @@
                       <li>110 Sq</li>
                       <li>3-5 Guests</li>
                       <li>Free Wi-Fi</li>
-                    </ul>
-                    <a href="404.html" class="cs_card_btn cs_center">
+                    </ul> -->
+                    <a href="rooms.html" class="cs_card_btn cs_center">
                       <i class="fa-solid fa-chevron-right"></i>
                     </a>
                   </div>
@@ -445,13 +487,13 @@
               </div>
               <div class="cs_slide">
                 <div class="cs_card cs_style_1">
-                  <a href="404.html" class="cs_card_thumb d-block cs_radius_5 overflow-hidden position-relative cs_primary_bg">
+                  <a href="rooms.html" class="cs_card_thumb d-block cs_radius_5 overflow-hidden position-relative cs_primary_bg">
                     <img src="assets/img/room_2.jpeg" alt="Room">
                     <img src="assets/img/room_2.jpeg" alt="Room">
                   </a>
                   <div class="cs_card_info position-relative">
-                    <h2 class="cs_card_title cs_fs_50 cs_mb_4"><a href="404.html">Standard Room</a></h2>
-                    <div class="cs_card_price cs_mb_17">
+                    <h2 class="cs_card_title cs_fs_50 cs_mb_4"><a href="rooms.html">1-Bedroom</h2>
+                    <!-- <div class="cs_card_price cs_mb_17">
                       <span class="cs_primary_color">From</span>
                       <span class="cs_accent_color cs_fs_38 cs_primary_font">$450/Night</span>
                     </div>
@@ -459,8 +501,8 @@
                       <li>110 Sq</li>
                       <li>3-5 Guests</li>
                       <li>Free Wi-Fi</li>
-                    </ul>
-                    <a href="404.html" class="cs_card_btn cs_center">
+                    </ul> -->
+                    <a href="rooms.html" class="cs_card_btn cs_center">
                       <i class="fa-solid fa-chevron-right"></i>
                     </a>
                   </div>
@@ -468,13 +510,13 @@
               </div>
               <div class="cs_slide">
                 <div class="cs_card cs_style_1">
-                  <a href="404.html" class="cs_card_thumb d-block cs_radius_5 overflow-hidden position-relative cs_primary_bg">
+                  <a href="rooms.html" class="cs_card_thumb d-block cs_radius_5 overflow-hidden position-relative cs_primary_bg">
                     <img src="assets/img/room_3.jpeg" alt="Room">
                     <img src="assets/img/room_3.jpeg" alt="Room">
                   </a>
                   <div class="cs_card_info position-relative">
-                    <h2 class="cs_card_title cs_fs_50 cs_mb_4"><a href="404.html">Superior Room</a></h2>
-                    <div class="cs_card_price cs_mb_17">
+                    <h2 class="cs_card_title cs_fs_50 cs_mb_4"><a href="rooms.html">2-Bedroom</a></h2>
+                    <!-- <div class="cs_card_price cs_mb_17">
                       <span class="cs_primary_color">From</span>
                       <span class="cs_accent_color cs_fs_38 cs_primary_font">$520/Night</span>
                     </div>
@@ -482,12 +524,13 @@
                       <li>110 Sq</li>
                       <li>3-5 Guests</li>
                       <li>Free Wi-Fi</li>
-                    </ul>
-                    <a href="404.html" class="cs_card_btn cs_center">
+                    </ul> -->
+                    <a href="rooms.html" class="cs_card_btn cs_center">
                       <i class="fa-solid fa-chevron-right"></i>
                     </a>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>
@@ -510,6 +553,90 @@
     </section>
     <!-- End Rooms Section -->
 
+    <!-- Start About Section -->
+
+   <section class="py-5 cs_gray_bg">
+  <div class="container">
+
+    <!-- Top centered heading -->
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <div class="cs_section_heading cs_style_1">
+          <p class="cs_section_subtitle cs_medium cs_letter_spacing_1 mb-3 text-uppercase wow fadeInUp"
+             data-wow-duration="0.8s" data-wow-delay="0.2s"
+             style=" font-weight: 600; font-size: 22px;">
+             WHY CHOOSE US
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image left & text right -->
+    <div class="row align-items-center">
+      
+      <!-- Left side image -->
+      <div class="col-md-6 mb-4 mb-md-0 text-center">
+        <img src="/assets/img/abtus.jpg" alt="Luxury Resorts" 
+             class="img-fluid rounded shadow" style="width: 80%;">
+      </div>
+      
+      <!-- Right side content -->
+      <div class="col-md-6">
+        <p class="cs_fs_5 mb-4" style="width: 80%; font-size: 20px; font-style: italic;">
+          We connect travelers with verified, design-forward vacation homes—offering seamless booking, transparent pricing, and 24/7 support for guests and hosts. Think flexibility with curated stays and local experiences, all under one trusted platform.
+        </p>
+
+        <a href="about.html" class="cs_btn cs_style_2 cs_medium cs_radius_5 cs_fs_15 btn btn-light text-dark">
+          Learn More 
+          <span>
+            <i>
+              <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"/>
+              </svg>                                        
+            </i>
+            <i>
+              <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"/>
+              </svg>                   
+            </i>
+          </span>
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+    <!-- <section class="cs_gray_bg">
+      <div class="cs_height_141 cs_height_lg_75"></div>
+      <div class="container">
+        <div class="cs_about cs_style_1">
+          <div class="cs_section_heading cs_style_1 text-center">
+            <p class="cs_section_subtitle cs_medium cs_letter_spacing_1 cs_mb_28 cs_mb_lg_15 text-uppercase wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">WHY CHOOSE US</p>
+            <p class="cs_fs_67 cs_mb_45">Curated to match your preferences and desires, our selection includes luxury resorts, exclusive tours, and transfers for an unparalleled  experience</p>
+            <a href="404.html" class="cs_btn cs_style_2 cs_medium cs_radius_5 cs_fs_15">
+              Learn More 
+              <span>
+                <i>
+                  <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"/>
+                  </svg>                                        
+                </i>
+                <i>
+                  <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"/>
+                  </svg>                   
+                </i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="cs_height_150 cs_height_lg_80"></div>
+    </section> -->
+    <!-- End About Section -->
+
     <!-- Start Video Section -->
     <a href="https://www.youtube.com/embed/UJEUwEJ6gH4" class="cs_video_block cs_style_1 cs_video_open text-center cs_center position-relative">
       <h2 class="cs_video_block_title cs_fs_150 mb-0 position-relative cs_zindex_3">CASA</h2>
@@ -523,7 +650,7 @@
     <!-- End Video Section -->
 
     <!-- Start Features Section -->
-    <section>
+    <!-- <section>
       <div class="cs_height_141 cs_height_lg_75"></div>
       <div class="container">
         <div class="cs_section_heading cs_style_1 text-center">
@@ -546,7 +673,7 @@
                   </a>
                   <div class="cs_post_info">
                     <h2 class="cs_post_title cs_fs_38 cs_mb_19">
-                      <a href="404.html">Restaurant & Bar</a>
+                      <a href="">Restaurant & Bar</a>
                     </h2>
                     <p class="cs_post_subtitle cs_mb_36">Exceptional dining awaits at our resort. Immerse yourself in exquisite  flavors with view to match. Pure indulgence, effortlessly delivered.</p>
                     <a href="404.html" class="cs_btn cs_style_2 cs_medium cs_radius_5 cs_fs_15">
@@ -736,7 +863,7 @@
         <div class="cs_pagination cs_style_1 cs_mobile_show"></div>
       </div>
       <div class="cs_height_150 cs_height_lg_80"></div>
-    </section>
+    </section> -->
     <!-- End Features Section -->
 
     <!-- Start Testimonial Section -->
@@ -852,8 +979,8 @@
     <!-- End Testimonial Section -->
 
     <!-- Start Servide Section -->
-    <section>
-      <div class="cs_height_150 cs_height_lg_80"></div>
+    <section style="background-color: #fce5c587;">
+      <!-- <div class="cs_height_150 cs_height_lg_80"></div> -->
       <div class="container">
         <div class="row align-items-center cs_gap_y_45">
           <div class="col-lg-7 wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.2s">
@@ -876,7 +1003,7 @@
             <div class="cs_section_heading cs_style_1">
               <div class="cs_section_heading">
                 <p class="cs_section_subtitle cs_medium cs_letter_spacing_1 cs_mb_28 cs_mb_lg_15 text-uppercase">PREMIUM SERVICES</p>
-                <h2 class="cs_fs_67 mb-0">Your Every Hotel Need, Met with Our Diverse Services.</h2>
+                <h2 class="cs_fs_67 mb-0">Your Every Need, Met with Our Diverse Services.</h2>
               </div>
             </div>
             <div class="cs_height_35 cs_height_lg_35"></div>
@@ -907,7 +1034,7 @@
                 </svg>
                 Pet-Friendly Accommodations
               </li>
-              <li>
+              <!-- <li>
                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(.clip0_95_13)">
                   <path d="M24.9996 12.5001C24.9996 10.7334 24.1038 9.17611 22.7413 8.25736C23.0549 6.64486 22.5871 4.91048 21.3382 3.66048C20.0892 2.41152 18.3549 1.94382 16.7413 2.25736C15.8226 0.894857 14.2653 -0.000976562 12.4986 -0.000976562C10.7319 -0.000976562 9.17464 0.894857 8.25589 2.25736C6.64339 1.94382 4.90798 2.41152 3.65902 3.66048C2.41006 4.90944 1.94235 6.64382 2.25589 8.25736C0.893392 9.17611 -0.00244141 10.7334 -0.00244141 12.5001C-0.00244141 14.2667 0.893392 15.824 2.25589 16.7428C1.94235 18.3553 2.41006 20.0907 3.65902 21.3396C4.90798 22.5886 6.64235 23.0563 8.25589 22.7428C9.17464 24.1053 10.7319 25.0011 12.4986 25.0011C14.2653 25.0011 15.8226 24.1053 16.7413 22.7428C18.3538 23.0563 20.0892 22.5886 21.3382 21.3396C22.5871 20.0907 23.0549 18.3563 22.7413 16.7428C24.1038 15.824 24.9996 14.2667 24.9996 12.5001ZM12.4049 16.0615C12.0017 16.4646 11.4715 16.6657 10.9392 16.6657C10.4069 16.6657 9.87152 16.4626 9.46423 16.0563L6.56631 13.248L8.01735 11.7511L10.9267 14.5709L16.9778 8.63236L18.4403 10.1167L12.4049 16.0615Z" fill="currentColor"/>
@@ -919,7 +1046,7 @@
                   </defs>
                 </svg>
                 Private Beach Access
-              </li>
+              </li> -->
               <li>
                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(.clip0_95_13)">
@@ -931,7 +1058,7 @@
                   </clipPath>
                   </defs>
                 </svg>
-                24/7 Room Service
+                24/7 Service
               </li>
               <li>
                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -948,7 +1075,7 @@
               </li>
             </ul>
             <div class="cs_height_48 cs_height_lg_30"></div>
-            <a href="404.html" class="cs_btn cs_style_2 cs_medium cs_radius_5 cs_fs_15">
+            <a href="rooms.html" class="cs_btn cs_style_2 cs_medium cs_radius_5 cs_fs_15">
               Learn More 
               <span>
                 <i>
@@ -970,7 +1097,7 @@
     <!-- End Servide Section -->
 
     <!-- Start Gallery Section -->
-    <section>
+    <section style="background-color: #fce5c587;">
       <div class="cs_height_141 cs_height_lg_75"></div>
       <div class="container">
         <div class="cs_section_heading cs_style_1 text-center">
@@ -1300,16 +1427,16 @@
     <!-- End Newsletter Section -->
 
     <!-- Start Footer -->
-    <footer class="cs_footer cs_primary_bg cs_ternary_color">
+    <footer class="cs_footer cs_primary_bg cs_ternary_color" style="background-color: #fce5c587; color: black;">
       <div class="cs_footer_main">
         <div class="container">
           <div class="cs_footer_grid_4">
             <div class="cs_footer_grid_item">
               <div class="cs_footer_item">
-                <h2 class="cs_widget_title cs_fs_28 cs_white_color"><span>Contact Us</span></h2>
+                <h2 class="cs_widget_title cs_fs_28"><span>Contact Us</span></h2>
                 <ul class="cs_menu_widget cs_mp0">
-                  <li class="cs_white_color">Call : <a href="tel:+00(244)14-50-774">+971-50-000-000</a></li>
-                  <li class="cs_white_color">Email : <a href="mailto:info@oceanpearl.com">hello@casadelux.com</a></li>
+                  <li class="">Call : <a href="tel:+00(244)14-50-774">+971-50-000-000</a></li>
+                  <li class="">Email : <a href="mailto:info@oceanpearl.com">hello@casadelux.com</a></li>
                   <li>We are open 24/7</li>
                 </ul>
                 <div class="cs_social_btns cs_style_1">
@@ -1330,7 +1457,7 @@
             </div>
             <div class="cs_footer_grid_item">
               <div class="cs_footer_item">
-                <h2 class="cs_widget_title cs_fs_28 cs_white_color"><span>Address</span></h2>
+                <h2 class="cs_widget_title cs_fs_28"><span>Address</span></h2>
                 <div class="cs_text_widget">
                   <p>Dubai, UAE</p>
                 </div>
@@ -1338,20 +1465,20 @@
             </div>
             <div class="cs_footer_grid_item">
               <div class="cs_footer_item">
-                <h2 class="cs_widget_title cs_fs_28 cs_white_color"><span>Links</span></h2>
+                <h2 class="cs_widget_title cs_fs_28"><span>Links</span></h2>
                 <ul class="cs_menu_widget cs_mp0">
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="404.html">About Us</a></li>
-                  <li><a href="404.html">Booking</a></li>
-                  <li><a href="404.html">SPA & Wellness</a></li>
-                  <li><a href="404.html">Restaurant</a></li>
-                  <li><a href="404.html">News & Media</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="rooms.html">Our Stays</a></li>
+                  <li><a href="listyourproperty.html">List Your Property</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <!-- <li><a href="404.html">News & Media</a></li> -->
                 </ul>
               </div>
             </div>
             <div class="cs_footer_grid_item">
               <div class="cs_footer_item">
-                <h2 class="cs_widget_title cs_fs_28 cs_white_color"><span>Map Location</span></h2>
+                <h2 class="cs_widget_title cs_fs_28"><span>Map Location</span></h2>
                 <div class="cs_footer_map cs_primary_bg">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96652.27317354927!2d-74.33557928194516!3d40.79756494697628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a82f1352d0dd%3A0x81d4f72c4435aab5!2sTroy+Meadows+Wetlands!5e0!3m2!1sen!2sbd!4v1563075599994!5m2!1sen!2sbd" allowfullscreen></iframe>
                 </div>
@@ -1360,7 +1487,7 @@
           </div>
         </div>
       </div>
-      <div class="cs_bottom_footer_wrap">
+      <div class="cs_bottom_footer_wrap" style="background-color: #fce5c587; color: black;">
         <div class="container">
           <div class="cs_bottom_footer position-relative">
             <div class="cs_copyright">CASA Copyright ©  <span class="cs_copyright_year">2024</span></div>

@@ -10386,6 +10386,8 @@ a.ui-button:active,
         width: 70px;
         height: 70px;
       }
+
+      
     }
 
     /* Mobile view */
@@ -10396,6 +10398,21 @@ a.ui-button:active,
       .logo-section img {
         width: 60px;
         height: 60px;
+      }
+      .management-header {
+        font-size: 35px !important;
+      }
+
+      .management-subheader {
+        font-size: 12px !important;
+      }
+
+      .accountability {
+        font-size: 45px !important;
+      }
+
+      .fees-img {
+        width: 90% !important;
       }
     }
 

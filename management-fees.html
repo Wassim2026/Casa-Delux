@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Laralink">
+    <!-- Favicon Icon -->
+    <link rel="icon" href="assets/img/logo (2).png">
+    <!-- Site Title -->
+    <title>CASA DELUX RENTALS</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/daterangepicker.css">
+    <link rel="stylesheet" href="assets/css/lightgallery.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"> 
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/v4-shims.min.css">
+
+  </head>
+  <body>
+    <!-- Start Preloader -->
+    <div class="cs_preloader cs_accent_color cs_primary_font">
+      <div class="cs_preloader_in">CDR</div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Start Header Section -->
+    <header class="glassy_header">
+      <div class="glassy_header_in">
+
+        <div class="glassy_branding">
+          <a href="index.html">
+            <img src="assets/img/logo (2).png" alt="Logo">
+          </a>
+        </div>
+
+        <!-- Mobile toggle button on right -->
+        <div class="menu-toggle" onclick="document.querySelector('.glassy_header nav ul').classList.toggle('show');">
+          ☰
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="management-fees.html">Management Fees</a></li>
+            <li><a href="rooms.html">Our Stays</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- Mobile buttons inside nav -->
+            <li class="mobile-only"><a href="rooms.html" class="glassy_btn">Book Your Stay</a></li>
+            <li class="mobile-only"><a href="listyourproperty.html" class="glassy_btn">List Your Property</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-buttons desktop-only">
+          <a href="rooms.html" class="glassy_btn">Book Your Stay</a>
+          <a href="listyourproperty.html" class="glassy_btn">List Your Property</a>
+        </div>
+      </div>
+    </header>
+
+
+
+    <!-- <header class="cs_site_header cs_style_1 cs_transparent_header cs_primary_color cs_sticky_header">
+      <div class="cs_main_header">
+        <div class="container">
+          <div class="cs_main_header_in">
+            <div class="cs_main_header_left">
+              <a class="cs_site_branding" href="index.html">
+                <img src="assets/img/logo (2).png" alt="Logo" style="width: 150px; height: 120px;">
+              </a>
+            </div>
+            <div class="cs_main_header_center">
+              <nav class="cs_nav cs_fs_13 cs_semibold">
+                <ul class="cs_nav_list">
+                  <li class="menu-item-has-children cs_mega_menu">
+                    <a href="index.html">Home</a>
+                    <ul class="cs_mega_wrapper cs_with_thumb">
+                      <li>
+                        <a href="index.html">
+                          <img src="assets/img/demo/home-1.jpeg" alt="">Default Hotel & Resort
+                        </a>
+                      </li>
+                      <li>
+                        <a href="home-v2.html">
+                          <img src="assets/img/demo/home-2.jpeg" alt="">Hotel & Resort V2
+                        </a>
+                      </li>
+                      <li>
+                        <a href="home-v3.html">
+                          <img src="assets/img/demo/home-3.jpeg" alt="">Hotel & Resort V3
+                        </a>
+                      </li>
+                      <li>
+                        <a href="home-v4.html">
+                          <img src="assets/img/demo/home-4.jpeg" alt="">Hotel & Resort V4
+                        </a>
+                      </li>
+                      <li>
+                        <a href="home-v5.html">
+                          <img src="assets/img/demo/home-5.jpeg" alt="">Hotel & Resort V5
+                        </a>
+                      </li>
+                      <li>
+                        <a href="home-v6.html">
+                          <img src="assets/img/demo/home-6.jpeg" alt="">Hotel & Resort V6
+                        </a>
+                      </li>
+                      <li>
+                        <a href="home-v7.html">
+                          <img src="assets/img/demo/home-7.jpeg" alt="">Hotel & Resort V7
+                        </a>
+                      </li>
+                      <li>
+                        <a href="home-v8.html">
+                          <img src="assets/img/demo/home-8.jpeg" alt="">Hotel & Resort V8
+                        </a>
+                      </li>
+                      <li>
+                        <a href="home-v9.html">
+                          <img src="assets/img/demo/home-9.jpeg" alt="">Hostel
+                        </a>
+                      </li>
+                      <li>
+                        <a href="home-v10.html">
+                          <img src="assets/img/demo/home-10.jpeg" alt="">Luxury Hotel
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="404.html">About Us</a></li>
+                  <li class="menu-item-has-children">
+                    <a href="404.html">Rooms</a>
+                    <ul>
+                      <li><a href="rooms.html">Room Grid View</a></li>
+                      <li><a href="rooms-list-view.html">Room List View</a></li>
+                      <li><a href="room-details.html">Room Details V1</a></li>
+                      <li><a href="room-details-v2.html">Room Details V2</a></li>
+                      <li><a href="room-details-v3.html">Room Details V3</a></li>
+                      <li><a href="search-result.html">Room Search Result</a></li>
+                      <li><a href="complete-reservation.html">Payment Page</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="404.html">Services</a></li>
+                  <li><a href="404.html">Restaurant</a></li>
+                  <li class="menu-item-has-children">
+                    <a href="">Pages</a>
+                    <ul>
+                      <li><a href="restaurant.html">Restaurant & Bar</a></li>
+                      <li><a href="spa-wellness.html">SPA & Wellness</a></li>
+                      <li><a href="infinity-pool.html">Infinity Pool</a></li>
+                      <li><a href="team.html">Team</a></li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="404.html">Error 404</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="blog.html">Blog</a>
+                    <ul>
+                      <li><a href="blog.html">Sidebar Blog</a></li>
+                      <li><a href="blog-grid.html">Blog Grid View</a></li>
+                      <li><a href="blog-list.html">Blog List View</a></li>
+                      <li><a href="blog-details.html">Blog Details</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="404.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="cs_main_header_right">
+              <a href="404.html" class="cs_btn cs_style_2 cs_medium cs_radius_20 cs_fs_15">
+                Reservation
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header> -->
+    <!-- End Header Section -->
+
+    <!-- Start Hero Section -->
+    <section>
+      <!-- Hero Section -->
+      <section class="hero_banner" style="background-image: url('assets/img/management-header.avif');">
+        <div class="hero_overlay">
+          <div class="hero_content">
+            <h1>WHAT WE GOT FOR YOU!</h1>
+            <p>Casa Delux’s performance-driven approach ensures you gain more value too!</p>
+            <!-- <div class="hero_buttons">
+              <a href="rooms.html" class="hero_btn hero_btn_primary">Book Your Stay</a>
+              <a href="listyourproperty.html" class="hero_btn hero_btn_secondary">List Your Properties</a>
+            </div> -->
+          </div>
+        </div>
+        </section>
+
+        <div class="features-section">
+            <div class="container my-5">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-8">
+                        <div class="feature-box p-4">
+                            <h2 class="fw-semibold" style="font-size: 80px; letter-spacing: 2px;">Accountability in Action</h2>
+                            <p>We don’t just promise results — we align our fees with them.</p>
+                            <p>Our management fee grows only when your results do.</p>
+                            <h4 class="mt-4" style="letter-spacing: 1px; font-weight: 600; color: #6b3f00bb;" ><em>Your goals. Our performance. Shared success.</em></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="fees-section py-5">
+          <div class="container">
+            <div class="row justify-content-center text-center mb-4">
+              <div class="col-lg-8">
+                <h2 class="mb-3" style="color: #6b3f00bb; font-weight: 700;">CASA Delux Short-Term Rental Management Fees</h2>
+                <p class="text-muted">
+                  At <strong>CASA Delux</strong>, all the services mentioned in the previous section are 
+                  included in our Short-Term Rental Management package — with <strong>absolutely no hidden costs</strong>.  
+                  We operate on a clear and transparent management fee of just <strong>17% flat</strong>.
+                </p>
+                <p class="mt-3">
+                  But what does that really mean for your returns?
+                </p>
+                <p>
+                  We believe every successful partnership starts with clarity and trust. That’s why we provide you with a 
+                  <strong>personalized rental income projection</strong> before you commit. This projection takes into account 
+                  your property’s <em>location, size, market demand, and seasonal trends</em>, giving you a realistic estimate 
+                  of your potential earnings.
+                </p>
+                <p class="mt-3"><strong>Here’s an example of how it works:</strong></p>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Full Width Image Section -->
+          <div class="example-image text-center">
+            <img src="assets/img/fees-example.png" alt="CASA Delux Fee Example" style="width:70%; height:auto;">
+          </div>
+        </section>
+
+        <section class="contact-section">
+            <h1>Get in Touch</h1>
+            <p>We'd love to hear from you!</p>
+
+           <div class="contact-container">
+              <!-- Email -->
+              <a href="mailto:hello@casadelux.co" class="contact-box">
+                <img src="https://cdn-icons-png.flaticon.com/512/893/893292.png" alt="Email">
+                <p>hello@casadelux.co</p>
+              </a>
+            
+              <!-- Phone -->
+              <a href="tel:0585959450" class="contact-box dark">
+                <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Phone">
+                <p>+971-58-595-9450</p>
+              </a>
+            
+              <!-- WhatsApp -->
+              <a href="https://wa.me/971585959450" target="_blank" class="contact-box">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+                <p>Contact on Whatsapp</p>
+              </a>
+            </div>
+        </section>
+
+
+    
+    <!-- Start About Section -->
+    <section class="py-5 cs_gray_bg">
+        <div class="container">
+          <!-- Top centered heading -->
+          <div class="row mb-5">
+            <div class="col-12 text-center">
+              <div class="cs_section_heading cs_style_1">
+                <p class="cs_section_subtitle cs_medium cs_letter_spacing_1 mb-3 text-uppercase wow fadeInUp"
+                   data-wow-duration="0.8s" data-wow-delay="0.2s"
+                   style=" font-weight: 600; font-size: 22px;">
+                   WHY CHOOSE US
+                </p>
+              </div>
+            </div>
+          </div>
+
+        <!-- Image left & text right -->
+        <div class="row align-items-center">
+          <!-- Left side image -->
+          <div class="col-md-6 mb-4 mb-md-0 text-center">
+            <img src="assets/img/abtus.jpg" alt="Luxury Resorts" 
+                 class="img-fluid rounded shadow" style="width: 80%;">
+          </div>
+
+          <!-- Right side content -->
+          <div class="col-md-6">
+            <p class="cs_fs_5 mb-4" style="width: 80%; font-size: 20px; font-style: italic;">
+              We connect travelers with verified, design-forward vacation homes—offering seamless booking, transparent pricing, and 24/7 support for guests and hosts. Think flexibility with curated stays and local experiences, all under one trusted platform.
+            </p>
+
+            <a href="about.html" class="cs_btn cs_style_2 cs_medium cs_radius_5 cs_fs_15 btn btn-light text-dark">
+              Learn More 
+              <span>
+                <i>
+                  <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"/>
+                  </svg>                                        
+                </i>
+                <i>
+                  <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"/>
+                  </svg>                   
+                </i>
+              </span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Start Video Section -->
+    <a href="https://www.youtube.com/embed/UJEUwEJ6gH4" class="cs_video_block cs_style_1 cs_video_open text-center cs_center position-relative">
+      <h2 class="cs_video_block_title cs_fs_150 mb-0 position-relative cs_zindex_3">CASA</h2>
+      <div class="cs_video_block_bg h-100 w-100 position-absolute start-0 top-0 cs_bg_filed cs_primary_bg" data-src="assets/img/video_bg_1.jpeg"></div>
+      <span class="cs_play_btn">
+        <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M35 0C15.7004 0 0 15.7004 0 35C0 54.2996 15.7004 70 35 70C54.2996 70 70 54.2996 70 35C70 15.7004 54.2996 0 35 0ZM35 64.1667C18.9175 64.1667 5.83333 51.0825 5.83333 35C5.83333 18.9175 18.9175 5.83333 35 5.83333C51.0825 5.83333 64.1667 18.9175 64.1667 35C64.1667 51.0825 51.0825 64.1667 35 64.1667ZM23.3333 51.4704L52.6167 35L23.3333 18.5296V51.4733V51.4704ZM29.1667 28.5017L40.7167 35L29.1667 41.4983V28.5017Z" fill="currentColor"/>
+        </svg>          
+      </span>
+    </a>
+    <!-- End Video Section -->
+
+
+    <!-- Start Gallery Section -->
+    <section style="background-color: #fce5c587;">
+      <div class="cs_height_141 cs_height_lg_75"></div>
+      <div class="container">
+        <div class="cs_section_heading cs_style_1 text-center">
+          <p class="cs_section_subtitle cs_medium cs_letter_spacing_1 cs_mb_28 cs_mb_lg_15 text-uppercase">EXCITING GALLERY</p>
+          <h2 class="cs_fs_67 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Explore Unforgettable Experiences</h2>
+        </div>
+        <div class="cs_height_80 cs_height_lg_50"></div>
+      </div>
+      <div class="cs_grid_style_1 cs_lightgallery">
+        <div class="cs_grid_item">
+          <a href="assets/img/gallery_1.jpeg" class="cs_gallery_item cs_lightbox_item cs_style_1 d-block cs_bg_filed position-relative" data-src="assets/img/gallery_1.jpeg">
+            <div class="cs_gallery_item_hover cs_primary_font cs_white_color cs_fs_38 cs_center text-center">Beach View</div>
+            <img src="assets/img/gallery_1.jpeg" alt="" class="d-none">
+          </a>
+        </div>
+        <div class="cs_grid_item">
+          <a href="assets/img/gallery_2.jpeg" class="cs_gallery_item cs_lightbox_item cs_style_1 d-block cs_bg_filed position-relative" data-src="assets/img/gallery_2.jpeg">
+            <div class="cs_gallery_item_hover cs_primary_font cs_white_color cs_fs_38 cs_center text-center">Restaurant View</div>
+            <img src="assets/img/gallery_2.jpeg" alt="" class="d-none">
+          </a>
+        </div>
+        <div class="cs_grid_item">
+          <a href="assets/img/gallery_3.jpeg" class="cs_gallery_item cs_lightbox_item cs_style_1 d-block cs_bg_filed position-relative" data-src="assets/img/gallery_3.jpeg">
+            <div class="cs_gallery_item_hover cs_primary_font cs_white_color cs_fs_38 cs_center text-center">Relax View</div>
+            <img src="assets/img/gallery_3.jpeg" alt="" class="d-none">
+          </a>
+        </div>
+        <div class="cs_grid_item">
+          <a href="assets/img/gallery_4.jpeg" class="cs_gallery_item cs_lightbox_item cs_style_1 d-block cs_bg_filed position-relative" data-src="assets/img/gallery_4.jpeg">
+            <div class="cs_gallery_item_hover cs_primary_font cs_white_color cs_fs_38 cs_center text-center">Hotel View</div>
+            <img src="assets/img/gallery_4.jpeg" alt="" class="d-none">
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Gallery Section -->
+    
+    <!-- Start Blog Section -->
+    <!-- <section class="cs_gray_bg">
+      <div class="cs_height_141 cs_height_lg_75"></div>
+      <div class="container">
+        <div class="cs_section_heading cs_style_1 text-center">
+          <p class="cs_section_subtitle cs_medium cs_letter_spacing_1 cs_mb_28 cs_mb_lg_15 text-uppercase">NEWS & MEDIA</p>
+          <h2 class="cs_fs_67 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Explore Our Latest Updates</h2>
+        </div>
+        <div class="cs_height_80 cs_height_lg_50"></div>
+      </div>
+      <div class="cs_slider cs_style_1 cs_slider_gap_60 cs_hover_show_arrows">
+        <div class="container">
+          <div class="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0" data-variable-width="0" data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="2" data-lg-slides="3" data-add-slides="3">
+            <div class="cs_slider_wrapper">
+              <div class="cs_slide">
+                <div class="cs_post cs_style_1 cs_size_1">
+                  <a href="blog-details.html" class="cs_post_thumb cs_radius_5 overflow-hidden d-block cs_mb_29 cs_mb_lg_20 position-relative">
+                    <img src="assets/img/post_thumb_1.jpeg" alt="Feature">
+                    <span class="cs_hover_icon cs_center position-absolute cs_white_color cs_zindex_2 cs_radius_5">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+                  </a>
+                  <div class="cs_post_info">
+                    <div class="cs_post_meta cs_mb_24">
+                      <span>By Jenifar</span>
+                      <span class="cs_post_meta_seperator"></span>
+                      <span>3 Aug 2024</span>
+                    </div>
+                    <h2 class="cs_post_title cs_fs_38 cs_mb_19">
+                      <a href="blog-details.html">A Journey into Our Luxurious Resort</a>
+                    </h2>
+                    <a href="blog-details.html" class="cs_btn cs_style_2 cs_medium cs_radius_5 cs_fs_15">
+                      Learn More 
+                      <span>
+                        <i>
+                          <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"></path>
+                          </svg>                                        
+                        </i>
+                        <i>
+                          <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"></path>
+                          </svg>                   
+                        </i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="cs_slide">
+                <div class="cs_post cs_style_1 cs_size_1">
+                  <a href="blog-details.html" class="cs_post_thumb cs_radius_5 overflow-hidden d-block cs_mb_29 cs_mb_lg_20 position-relative">
+                    <img src="assets/img/post_thumb_2.jpeg" alt="Feature">
+                    <span class="cs_hover_icon cs_center position-absolute cs_white_color cs_zindex_2 cs_radius_5">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+                  </a>
+                  <div class="cs_post_info">
+                    <div class="cs_post_meta cs_mb_24">
+                      <span>By Jenifar</span>
+                      <span class="cs_post_meta_seperator"></span>
+                      <span>1 Feb 2024</span>
+                    </div>
+                    <h2 class="cs_post_title cs_fs_38 cs_mb_19">
+                      <a href="blog-details.html">Exquisite Dining Experiences at Our Resort</a>
+                    </h2>
+                    <a href="blog-details.html" class="cs_btn cs_style_2 cs_medium cs_radius_5 cs_fs_15">
+                      Learn More 
+                      <span>
+                        <i>
+                          <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"></path>
+                          </svg>                                        
+                        </i>
+                        <i>
+                          <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"></path>
+                          </svg>                   
+                        </i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="cs_slide">
+                <div class="cs_post cs_style_1 cs_size_1">
+                  <a href="blog-details.html" class="cs_post_thumb cs_radius_5 overflow-hidden d-block cs_mb_29 cs_mb_lg_20 position-relative">
+                    <img src="assets/img/post_thumb_3.jpeg" alt="Feature">
+                    <span class="cs_hover_icon cs_center position-absolute cs_white_color cs_zindex_2 cs_radius_5">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+                  </a>
+                  <div class="cs_post_info">
+                    <div class="cs_post_meta cs_mb_24">
+                      <span>By Jenifar</span>
+                      <span class="cs_post_meta_seperator"></span>
+                      <span>4 Sep 2024</span>
+                    </div>
+                    <h2 class="cs_post_title cs_fs_38 cs_mb_19">
+                      <a href="blog-details.html">Rejuvenation Secrets from Our Spa</a>
+                    </h2>
+                    <a href="blog-details.html" class="cs_btn cs_style_2 cs_medium cs_radius_5 cs_fs_15">
+                      Learn More 
+                      <span>
+                        <i>
+                          <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"></path>
+                          </svg>                                        
+                        </i>
+                        <i>
+                          <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"></path>
+                          </svg>                   
+                        </i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="cs_slide">
+                <div class="cs_post cs_style_1 cs_size_1">
+                  <a href="blog-details.html" class="cs_post_thumb cs_radius_5 overflow-hidden d-block cs_mb_29 cs_mb_lg_20 position-relative">
+                    <img src="assets/img/post_thumb_1.jpeg" alt="Feature">
+                    <span class="cs_hover_icon cs_center position-absolute cs_white_color cs_zindex_2 cs_radius_5">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+                  </a>
+                  <div class="cs_post_info">
+                    <div class="cs_post_meta cs_mb_24">
+                      <span>By Jenifar</span>
+                      <span class="cs_post_meta_seperator"></span>
+                      <span>3 Aug 2024</span>
+                    </div>
+                    <h2 class="cs_post_title cs_fs_38 cs_mb_19">
+                      <a href="blog-details.html">A Journey into Our Luxurious Resort</a>
+                    </h2>
+                    <a href="blog-details.html" class="cs_btn cs_style_2 cs_medium cs_radius_5 cs_fs_15">
+                      Learn More 
+                      <span>
+                        <i>
+                          <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"></path>
+                          </svg>                                        
+                        </i>
+                        <i>
+                          <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"></path>
+                          </svg>                   
+                        </i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="cs_slide">
+                <div class="cs_post cs_style_1 cs_size_1">
+                  <a href="blog-details.html" class="cs_post_thumb cs_radius_5 overflow-hidden d-block cs_mb_29 cs_mb_lg_20 position-relative">
+                    <img src="assets/img/post_thumb_2.jpeg" alt="Feature">
+                    <span class="cs_hover_icon cs_center position-absolute cs_white_color cs_zindex_2 cs_radius_5">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+                  </a>
+                  <div class="cs_post_info">
+                    <div class="cs_post_meta cs_mb_24">
+                      <span>By Jenifar</span>
+                      <span class="cs_post_meta_seperator"></span>
+                      <span>1 Feb 2024</span>
+                    </div>
+                    <h2 class="cs_post_title cs_fs_38 cs_mb_19">
+                      <a href="blog-details.html">Exquisite Dining Experiences at Our Resort</a>
+                    </h2>
+                    <a href="blog-details.html" class="cs_btn cs_style_2 cs_medium cs_radius_5 cs_fs_15">
+                      Learn More 
+                      <span>
+                        <i>
+                          <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"></path>
+                          </svg>                                        
+                        </i>
+                        <i>
+                          <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"></path>
+                          </svg>                   
+                        </i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="cs_slide">
+                <div class="cs_post cs_style_1 cs_size_1">
+                  <a href="blog-details.html" class="cs_post_thumb cs_radius_5 overflow-hidden d-block cs_mb_29 cs_mb_lg_20 position-relative">
+                    <img src="assets/img/post_thumb_3.jpeg" alt="Feature">
+                    <span class="cs_hover_icon cs_center position-absolute cs_white_color cs_zindex_2 cs_radius_5">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+                  </a>
+                  <div class="cs_post_info">
+                    <div class="cs_post_meta cs_mb_24">
+                      <span>By Jenifar</span>
+                      <span class="cs_post_meta_seperator"></span>
+                      <span>4 Sep 2024</span>
+                    </div>
+                    <h2 class="cs_post_title cs_fs_38 cs_mb_19">
+                      <a href="blog-details.html">Rejuvenation Secrets from Our Spa</a>
+                    </h2>
+                    <a href="blog-details.html" class="cs_btn cs_style_2 cs_medium cs_radius_5 cs_fs_15">
+                      Learn More 
+                      <span>
+                        <i>
+                          <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"></path>
+                          </svg>                                        
+                        </i>
+                        <i>
+                          <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"></path>
+                          </svg>                   
+                        </i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cs_slider_arrows cs_style_2 cs_mobile_hide">
+          <div class="cs_left_arrow slick-arrow">
+            <svg width="56" height="16" viewBox="0 0 56 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.292893 7.29289C-0.0976311 7.68342 -0.0976311 8.31658 0.292893 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292893 7.29289ZM56 7L1 7V9L56 9V7Z" fill="currentColor"/>
+            </svg>                                             
+          </div>
+          <div class="cs_right_arrow slick-arrow">
+            <svg width="56" height="16" viewBox="0 0 56 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M55.7071 8.70711C56.0976 8.31659 56.0976 7.68342 55.7071 7.2929L49.3431 0.928937C48.9526 0.538412 48.3195 0.538412 47.9289 0.928936C47.5384 1.31946 47.5384 1.95263 47.9289 2.34315L53.5858 8L47.9289 13.6569C47.5384 14.0474 47.5384 14.6805 47.9289 15.0711C48.3195 15.4616 48.9526 15.4616 49.3431 15.0711L55.7071 8.70711ZM-8.74228e-08 9L55 9L55 7L8.74228e-08 7L-8.74228e-08 9Z" fill="currentColor"/>
+            </svg>                                              
+          </div>
+        </div>
+        <div class="cs_pagination cs_style_1 cs_mobile_show"></div>
+      </div>
+      <div class="cs_height_150 cs_height_lg_80"></div>
+    </section> -->
+    <!-- End Blog Section -->
+
+    <!-- Start Newsletter Section -->
+    <!-- <section>
+      <div class="cs_height_150 cs_height_lg_80"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-8 offset-xxl-2 col-xl-10 offset-xl-1">
+            <div class="cs_newsletter cs_style_1 text-center">
+              <span class="cs_newsletter_icon cs_center cs_accent_bg rounded-circle cs_mb_26 wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_124_203)">
+                  <path d="M1.80486 8.33637C1.38631 8.45596 1.00624 8.68277 0.702253 8.99435C0.398268 9.30593 0.180908 9.69149 0.0716809 10.1129C-0.0375465 10.5342 -0.0348553 10.9768 0.0794879 11.3969C0.193831 11.8169 0.415863 12.1998 0.723615 12.5076L4.98861 16.7676V25.0001H13.2299L17.5236 29.2876C17.7541 29.5201 18.0282 29.7047 18.3302 29.8308C18.6323 29.9569 18.9563 30.0221 19.2836 30.0226C19.4987 30.0222 19.713 29.9945 19.9211 29.9401C20.3423 29.834 20.7281 29.6188 21.0397 29.3162C21.3513 29.0136 21.5777 28.6343 21.6961 28.2164L29.9886 0.0263672L1.80486 8.33637ZM2.49986 10.7401L23.7849 4.46512L7.49111 20.7326V15.7326L2.49986 10.7401ZM19.2999 27.5201L14.2661 22.5001H9.26611L25.5574 6.22262L19.2999 27.5201Z" fill="white"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_124_203">
+                  <rect width="30" height="30" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg>                  
+              </span>
+              <h2 class="cs_fs_50 cs_mb_26">For Exclusive Offers and Updates Subscribe Our SeaPearl Newsletter!</h2>
+              <form action="#" class="cs_newsletter_form position-relative">
+                <input type="email" class="cs_newsletter_input cs_radius_5" placeholder="Enter Your Email Address">
+                <button class="cs_btn cs_style_2 cs_medium cs_radius_5 cs_fs_15">
+                  Subscribe Now
+                  <span>
+                    <i>
+                      <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"></path>
+                      </svg>                                        
+                    </i>
+                    <i>
+                      <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.00431 0.872828C9.00431 0.458614 8.66852 0.122828 8.25431 0.122828L1.50431 0.122827C1.0901 0.122827 0.754309 0.458614 0.754309 0.872828C0.754309 1.28704 1.0901 1.62283 1.50431 1.62283H7.50431V7.62283C7.50431 8.03704 7.84009 8.37283 8.25431 8.37283C8.66852 8.37283 9.00431 8.03704 9.00431 7.62283L9.00431 0.872828ZM1.53033 8.65747L8.78464 1.40316L7.72398 0.342497L0.46967 7.59681L1.53033 8.65747Z" fill="currentColor"></path>
+                      </svg>                   
+                    </i>
+                  </span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cs_height_150 cs_height_lg_80"></div>
+    </section> -->
+    <!-- End Newsletter Section -->
+
+    <!-- Start Footer -->
+    <footer class="cs_footer cs_primary_bg cs_ternary_color" style="background-color: #fce5c587; color: black;">
+      <div class="cs_footer_main">
+        <div class="container">
+          <div class="cs_footer_grid_4">
+            <div class="cs_footer_grid_item">
+              <div class="cs_footer_item">
+                <h2 class="cs_widget_title cs_fs_28"><span>Contact Us</span></h2>
+                <ul class="cs_menu_widget cs_mp0">
+                  <li class="">Call : <a href="tel:+971-58-595-9450">+971-58-595-9450</a></li>
+                  <li class="">Email : <a href="mailto:info@oceanpearl.com">hello@casadelux.com</a></li>
+                  <li>We are open 24/7</li>
+                </ul>
+                <div class="cs_social_btns cs_style_1">
+                  <a href="#" class="cs_center">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                  <a href="#" class="cs_center">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="#" class="cs_center">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="#" class="cs_center">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="cs_footer_grid_item">
+              <div class="cs_footer_item">
+                <h2 class="cs_widget_title cs_fs_28"><span>Address</span></h2>
+                <div class="cs_text_widget">
+                  <p>Downtown, Dubai</p>
+                </div>
+              </div>
+            </div>
+            <div class="cs_footer_grid_item">
+              <div class="cs_footer_item">
+                <h2 class="cs_widget_title cs_fs_28"><span>Links</span></h2>
+                <ul class="cs_menu_widget cs_mp0">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="rooms.html">Our Stays</a></li>
+                  <li><a href="listyourproperty.html">List Your Property</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <!-- <li><a href="404.html">News & Media</a></li> -->
+                </ul>
+              </div>
+            </div>
+            <div class="cs_footer_grid_item">
+              <div class="cs_footer_item">
+                <h2 class="cs_widget_title cs_fs_28"><span>Map Location</span></h2>
+                <div class="cs_footer_map cs_primary_bg">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.255498782071!2d55.282592699999995!3d25.194604799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6979fee72873%3A0xd1640c46d8ca73b3!2sAddress%20Fountain%20Views%20Tower%202!5e0!3m2!1sen!2sae!4v1756470325954!5m2!1sen!2sae" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cs_bottom_footer_wrap" style="background-color: #fce5c587; color: black;">
+        <div class="container">
+          <div class="cs_bottom_footer position-relative">
+            <div class="cs_copyright">CASA Copyright ©  <span class="cs_copyright_year">2024</span></div>
+            <span class="cs_scrollup cs_center">              
+              <svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 6.18793L14.1169 7L7.93687 1.31723C7.81958 1.20941 7.66053 1.14885 7.49468 1.14885C7.32884 1.14885 7.16978 1.20941 7.0525 1.31723L0.884376 6.99022L0 6.177L6.16812 0.505163C6.51998 0.181708 6.99715 0 7.49468 0C7.99222 0 8.46938 0.181708 8.82125 0.505163L15 6.18793Z" fill="white"/>
+              </svg>  
+              <span class="cs_scrollup_bg_dotted cs_accent_color">
+                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="28" cy="28" r="27.5" stroke="currentColor" stroke-dasharray="5 5"/>
+                </svg>  
+              </span>              
+            </span>
+            <div class="cs_bottom_footer_right">
+              <ul class="cs_footer_links cs_mp_0">
+                <li>
+                  <a href="#">Privacy & Cookie Policy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+       <!-- WhatsApp Floating Button -->
+   <a href="https://wa.me/971585959450?text=Hello%20%F0%9F%91%8B%20Can%20I%20get%20more%20info%3F" class="whatsapp-float" target="_blank">
+     <i class="fa fa-whatsapp whatsapp-icon"></i>
+   </a>
+
+    <!-- Script -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.slick.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/daterangepicker.min.js"></script>
+    <script src="assets/js/lightgallery.min.js"></script>
+    <script src="assets/js/YTPlayer.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

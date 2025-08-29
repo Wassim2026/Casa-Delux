@@ -34,146 +34,40 @@
     <!-- End Preloader -->
     <!-- Start Header Section -->
 
+        <!-- Start Header Section -->
     <header class="glassy_header">
       <div class="glassy_header_in">
+    
         <div class="glassy_branding">
           <a href="index.html">
             <img src="assets/img/logo (2).png" alt="Logo">
           </a>
         </div>
+    
+        <!-- Mobile toggle button on right -->
+        <div class="menu-toggle" onclick="document.querySelector('.glassy_header nav ul').classList.toggle('show');">
+          ☰
+        </div>
+    
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
-            <!-- <li><a href="rooms.html">Rooms</a></li> -->
+            <li><a href="management-fees.html">Management Fees</a></li>
             <li><a href="rooms.html">Our Stays</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <!-- Mobile buttons inside nav -->
+            <li class="mobile-only"><a href="rooms.html" class="glassy_btn">Book Your Stay</a></li>
+            <li class="mobile-only"><a href="listyourproperty.html" class="glassy_btn">List Your Property</a></li>
           </ul>
         </nav>
-        <div>
-          <a href="rooms.html" class="glassy_btn">Book Your Stay </a>
-          <a href="listyourproperty.html" class="glassy_btn" style="margin-left: 10px;">List Your Property</a>
+    
+        <div class="header-buttons desktop-only">
+          <a href="rooms.html" class="glassy_btn">Book Your Stay</a>
+          <a href="listyourproperty.html" class="glassy_btn">List Your Property</a>
         </div>
       </div>
     </header>
-
-
-    <!-- <header class="cs_site_header cs_style_1 cs_transparent_header cs_primary_color cs_sticky_header">
-      <div class="cs_main_header">
-        <div class="container">
-          <div class="cs_main_header_in">
-            <div class="cs_main_header_left">
-              <a class="cs_site_branding" href="index.html">
-                <img src="assets/img/logo (2).png" alt="Logo" style="width: 150px; height: 120px;">
-              </a>
-            </div>
-            <div class="cs_main_header_center">
-              <nav class="cs_nav cs_fs_13 cs_semibold">
-                <ul class="cs_nav_list">
-                  <li class="menu-item-has-children cs_mega_menu">
-                    <a href="index.html">Home</a>
-                    <ul class="cs_mega_wrapper cs_with_thumb">
-                      <li>
-                        <a href="index.html">
-                          <img src="assets/img/demo/home-1.jpeg" alt="">Default Hotel & Resort
-                        </a>
-                      </li>
-                      <li>
-                        <a href="home-v2.html">
-                          <img src="assets/img/demo/home-2.jpeg" alt="">Hotel & Resort V2
-                        </a>
-                      </li>
-                      <li>
-                        <a href="home-v3.html">
-                          <img src="assets/img/demo/home-3.jpeg" alt="">Hotel & Resort V3
-                        </a>
-                      </li>
-                      <li>
-                        <a href="home-v4.html">
-                          <img src="assets/img/demo/home-4.jpeg" alt="">Hotel & Resort V4
-                        </a>
-                      </li>
-                      <li>
-                        <a href="home-v5.html">
-                          <img src="assets/img/demo/home-5.jpeg" alt="">Hotel & Resort V5
-                        </a>
-                      </li>
-                      <li>
-                        <a href="home-v6.html">
-                          <img src="assets/img/demo/home-6.jpeg" alt="">Hotel & Resort V6
-                        </a>
-                      </li>
-                      <li>
-                        <a href="home-v7.html">
-                          <img src="assets/img/demo/home-7.jpeg" alt="">Hotel & Resort V7
-                        </a>
-                      </li>
-                      <li>
-                        <a href="home-v8.html">
-                          <img src="assets/img/demo/home-8.jpeg" alt="">Hotel & Resort V8
-                        </a>
-                      </li>
-                      <li>
-                        <a href="home-v9.html">
-                          <img src="assets/img/demo/home-9.jpeg" alt="">Hostel
-                        </a>
-                      </li>
-                      <li>
-                        <a href="home-v10.html">
-                          <img src="assets/img/demo/home-10.jpeg" alt="">Luxury Hotel
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href="404.html">About Us</a></li>
-                  <li class="menu-item-has-children">
-                    <a href="404.html">Rooms</a>
-                    <ul>
-                      <li><a href="rooms.html">Room Grid View</a></li>
-                      <li><a href="rooms-list-view.html">Room List View</a></li>
-                      <li><a href="room-details.html">Room Details V1</a></li>
-                      <li><a href="room-details-v2.html">Room Details V2</a></li>
-                      <li><a href="room-details-v3.html">Room Details V3</a></li>
-                      <li><a href="search-result.html">Room Search Result</a></li>
-                      <li><a href="complete-reservation.html">Payment Page</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="404.html">Services</a></li>
-                  <li><a href="404.html">Restaurant</a></li>
-                  <li class="menu-item-has-children">
-                    <a href="">Pages</a>
-                    <ul>
-                      <li><a href="restaurant.html">Restaurant & Bar</a></li>
-                      <li><a href="spa-wellness.html">SPA & Wellness</a></li>
-                      <li><a href="infinity-pool.html">Infinity Pool</a></li>
-                      <li><a href="team.html">Team</a></li>
-                      <li><a href="gallery.html">Gallery</a></li>
-                      <li><a href="faq.html">FAQ</a></li>
-                      <li><a href="404.html">Error 404</a></li>
-                    </ul>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="blog.html">Blog</a>
-                    <ul>
-                      <li><a href="blog.html">Sidebar Blog</a></li>
-                      <li><a href="blog-grid.html">Blog Grid View</a></li>
-                      <li><a href="blog-list.html">Blog List View</a></li>
-                      <li><a href="blog-details.html">Blog Details</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="404.html">Contact</a></li>
-                </ul>
-              </nav>
-            </div>
-            <div class="cs_main_header_right">
-              <a href="404.html" class="cs_btn cs_style_2 cs_medium cs_radius_20 cs_fs_15">
-                Reservation
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header> -->
     <!-- End Header Section -->
 
     <!-- Start Hero Section -->
@@ -190,174 +84,28 @@
           </div>
         </div>
       </section>
-
-      <!-- <div class="cs_parallax_slider loading overflow-hidden position-relative">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="cs_hero cs_style_1 cs_center text-center position-relative">
-              <figure class="cs_swiper_parallax_bg cs_hero_bg cs_bg_filed h-100 w-100 position-absolute top-0 start-0 mb-0" data-src="assets/img/hero_bg_1.jpeg"></figure>
-              <div class="container position-relative cs_zindex_3">
-                <div class="cs_hero_text">
-                  <p class="cs_hero_subtitle cs_white_color text-uppercase d-inline-flex position-relative cs_mb_25 cs_letter_spacing_1">
-                    <img class="cs_hero_subtitle_icon_1 position-absolute start-0" src="assets/img/icons/star.svg" alt="Star">            
-                    A seaside oasis for tranquility and rejuvenation
-                    <img class="cs_hero_subtitle_icon_2 position-absolute end-0" src="assets/img/icons/star.svg" alt="Star">    
-                  </p>
-                  <h1 class="cs_hero_title cs_fs_89 cs_white_color mb-0">Welcome to Our Luxurious <br>Hotel & Resort</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="cs_hero cs_style_1 cs_center text-center position-relative">
-              <figure class="cs_swiper_parallax_bg cs_hero_bg cs_bg_filed h-100 w-100 position-absolute top-0 start-0 mb-0" data-src="assets/img/hero_bg_2.jpeg"></figure>
-              <div class="container position-relative cs_zindex_3">
-                <div class="cs_hero_text">
-                  <p class="cs_hero_subtitle cs_white_color text-uppercase d-inline-flex position-relative cs_mb_25 cs_letter_spacing_1">
-                    <img class="cs_hero_subtitle_icon_1 position-absolute start-0" src="assets/img/icons/star.svg" alt="Star">            
-                    A peaceful haven by the sea for rest and renewal
-                    <img class="cs_hero_subtitle_icon_2 position-absolute end-0" src="assets/img/icons/star.svg" alt="Star">    
-                  </p>
-                  <h1 class="cs_hero_title cs_fs_89 cs_white_color mb-0">Greetings from Our Opulent <br>Hotel & Resort</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="cs_hero cs_style_1 cs_center text-center position-relative">
-              <figure class="cs_swiper_parallax_bg cs_hero_bg cs_bg_filed h-100 w-100 position-absolute top-0 start-0 mb-0" data-src="assets/img/hero_bg_1.jpeg"></figure>
-              <div class="container position-relative cs_zindex_3">
-                <div class="cs_hero_text">
-                  <p class="cs_hero_subtitle cs_white_color text-uppercase d-inline-flex position-relative cs_mb_25 cs_letter_spacing_1">
-                    <img class="cs_hero_subtitle_icon_1 position-absolute start-0" src="assets/img/icons/star.svg" alt="Star">            
-                    A seaside oasis for tranquility and rejuvenation
-                    <img class="cs_hero_subtitle_icon_2 position-absolute end-0" src="assets/img/icons/star.svg" alt="Star">    
-                  </p>
-                  <h1 class="cs_hero_title cs_fs_89 cs_white_color mb-0">Welcome to Our Luxurious <br>Hotel & Resort</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="cs_hero cs_style_1 cs_center text-center position-relative">
-              <figure class="cs_swiper_parallax_bg cs_hero_bg cs_bg_filed h-100 w-100 position-absolute top-0 start-0 mb-0" data-src="assets/img/hero_bg_2.jpeg"></figure>
-              <div class="container position-relative cs_zindex_3">
-                <div class="cs_hero_text">
-                  <p class="cs_hero_subtitle cs_white_color text-uppercase d-inline-flex position-relative cs_mb_25 cs_letter_spacing_1">
-                    <img class="cs_hero_subtitle_icon_1 position-absolute start-0" src="assets/img/icons/star.svg" alt="Star">            
-                    A peaceful haven by the sea for rest and renewal
-                    <img class="cs_hero_subtitle_icon_2 position-absolute end-0" src="assets/img/icons/star.svg" alt="Star">    
-                  </p>
-                  <h1 class="cs_hero_title cs_fs_89 cs_white_color mb-0">Greetings from Our Opulent <br>Hotel & Resort</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        If we need navigation buttons -->
-        <!-- <div class="cs_slider_navigation cs_white_color">
-          <div class="cs_swiper_button_prev">
-            <svg width="56" height="16" viewBox="0 0 56 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0.292893 7.29289C-0.0976311 7.68342 -0.0976311 8.31658 0.292893 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292893 7.29289ZM56 7L1 7V9L56 9V7Z" fill="currentColor"/>
-            </svg>            
-          </div>
-          <div class="cs_swiper_button_next">
-            <svg width="56" height="16" viewBox="0 0 56 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M55.7071 8.70711C56.0976 8.31659 56.0976 7.68342 55.7071 7.2929L49.3431 0.928937C48.9526 0.538412 48.3195 0.538412 47.9289 0.928936C47.5384 1.31946 47.5384 1.95263 47.9289 2.34315L53.5858 8L47.9289 13.6569C47.5384 14.0474 47.5384 14.6805 47.9289 15.0711C48.3195 15.4616 48.9526 15.4616 49.3431 15.0711L55.7071 8.70711ZM-8.74228e-08 9L55 9L55 7L8.74228e-08 7L-8.74228e-08 9Z" fill="currentColor"/>
-            </svg>          
-          </div>
-        </div>
-      </div> --> 
-      <!-- <div class="cs_half_ternary_bg position-relative">
-        <div class="container">
-          <form action="search-result.html" class="cs_form cs_style_4 cs_accent_bg cs_radius_5 position-relative cs_zindex_10">
-            <div class="cs_date_items">
-              <input type="text" name="datetimes" class="cs_datetimes">
-              <div class="cs_form_item cs_date_item">
-                <label class="cs_white_color">Check in :</label>
-                <span class="cs_start_date cs_start_date_value cs_white_color">Start Date:</span>
-              </div>
-              <div class="cs_form_item cs_date_item">
-                <label class="cs_white_color">Check out :</label>
-                <span class="cs_end_date cs_end_date_value cs_white_color">End Date:</span>
-              </div>
-            </div>
-            <div class="cs_form_item">
-              <label class="cs_white_color">Rooms :</label>
-              <div class="cs_quantity_wrap">
-                <span class="cs_quantity_btn" data-initial-number="1"></span>
-                <div class="cs_quantity_dropdown cs_primary_color">
-                  <div class="cs_quantity_dropdown_item">
-                    <span class="cs_quantity_title">Rooms :</span>
-                    <div class="cs_count">
-                      <button class="cs_quantity_decrement cs_center" type="button">
-                        <i class="fa-solid fa-minus"></i>
-                      </button>
-                      <span class="cs_quantity_number" data-min-value="1" data-max-value="50"></span>
-                      <button class="cs_quantity_increment cs_center" type="button">
-                        <i class="fa-solid fa-plus"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="cs_form_item">
-              <label class="cs_white_color">Adults :</label>
-              <div class="cs_quantity_wrap">
-                <span class="cs_quantity_btn" data-initial-number="1"></span>
-                <div class="cs_quantity_dropdown cs_primary_color">
-                  <div class="cs_quantity_dropdown_item">
-                    <span class="cs_quantity_title">Adults :</span>
-                    <div class="cs_count">
-                      <button class="cs_quantity_decrement cs_center" type="button">
-                        <i class="fa-solid fa-minus"></i>
-                      </button>
-                      <span class="cs_quantity_number" data-min-value="1" data-max-value="30"></span>
-                      <button class="cs_quantity_increment cs_center" type="button">
-                        <i class="fa-solid fa-plus"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="cs_form_item cs_children_item">
-              <label class="cs_white_color">Children :</label>
-              <div class="cs_quantity_wrap">
-                <span class="cs_quantity_btn" data-initial-number="00"></span>
-                <div class="cs_quantity_dropdown cs_primary_color">
-                  <div class="cs_quantity_dropdown_item">
-                    <span class="cs_quantity_title">Children :</span>
-                    <div class="cs_count">
-                      <button class="cs_quantity_decrement cs_center" type="button">
-                        <i class="fa-solid fa-minus"></i>
-                      </button>
-                      <span class="cs_quantity_number" data-min-value="0" data-max-value="10"></span>
-                      <button class="cs_quantity_increment cs_center" type="button">
-                        <i class="fa-solid fa-plus"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="cs_form_item_btn">
-              <button class="cs_btn cs_style_1 cs_color_1 cs_fs_15 cs_medium cs_radius_5 w-100">Check Availability</button>
-            </div>
-          </form>
-        </div>
-      </div> -->
     </section>
     <!-- End Hero Section -->
+
     <div class="features-section">
+      <div class="logo-section" style="background-color: #fce5c587;">
+      <img src="./assets/img/airbnb.webp" alt="Airbnb">
+      <img src="./assets/img/booking.png" alt="Booking">
+      <img src="./assets/img/plum.png" alt="Plum Guide">
+      <img src="./assets/img/vrbo.png" alt="Vrbo">
+      <img src="./assets/img/smarthost.png" alt="Smart Host">
+      <img src="./assets/img/rightmove.jpg" alt="Right Move">
+      <img src="./assets/img/zoopla.avif" alt="Zoopla">
+      <img src="./assets/img//blueground.png" alt="Blueground">
+      <img src="./assets/img/tripadvisor.svg" alt="TripAdvisor">
+    </div>
     <div class="container my-5">
       <div class="row text-center">
 
         <div class="col-md-4">
           <div class="feature-box">
             <i class="bi bi-building"></i>
-            <h2>Prime Locations</h5>
+            <h3>Prime Locations</h3>
             <p>Downtown & Marina</p>
           </div>
         </div>
@@ -365,7 +113,7 @@
         <div class="col-md-4">
           <div class="feature-box">
             <i class="bi bi-house-door"></i>
-            <h2>Fully Furnished</h5>
+            <h3>Fully Furnished</h3>
             <p>Luxury Apartments</p>
           </div>
         </div>
@@ -373,7 +121,7 @@
         <div class="col-md-4">
           <div class="feature-box">
             <i class="bi bi-headset"></i>
-            <h2>24/7 Guest Support</h5>
+            <h3>24/7 Guest Support</h3>
             <p>& Easy Booking</p>
           </div>
         </div>
@@ -1436,7 +1184,7 @@
               <div class="cs_footer_item">
                 <h2 class="cs_widget_title cs_fs_28"><span>Contact Us</span></h2>
                 <ul class="cs_menu_widget cs_mp0">
-                  <li class="">Call : <a href="tel:+00(244)14-50-774">+971-50-000-000</a></li>
+                  <li class="">Call : <a href="tel:+971-58-595-9450">+971-58-595-9450</a></li>
                   <li class="">Email : <a href="mailto:info@oceanpearl.com">hello@casadelux.com</a></li>
                   <li>We are open 24/7</li>
                 </ul>
@@ -1460,7 +1208,7 @@
               <div class="cs_footer_item">
                 <h2 class="cs_widget_title cs_fs_28"><span>Address</span></h2>
                 <div class="cs_text_widget">
-                  <p>Dubai, UAE</p>
+                  <p>Downtown, Dubai</p>
                 </div>
               </div>
             </div>
@@ -1481,7 +1229,7 @@
               <div class="cs_footer_item">
                 <h2 class="cs_widget_title cs_fs_28"><span>Map Location</span></h2>
                 <div class="cs_footer_map cs_primary_bg">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96652.27317354927!2d-74.33557928194516!3d40.79756494697628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a82f1352d0dd%3A0x81d4f72c4435aab5!2sTroy+Meadows+Wetlands!5e0!3m2!1sen!2sbd!4v1563075599994!5m2!1sen!2sbd" allowfullscreen></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.255498782071!2d55.282592699999995!3d25.194604799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6979fee72873%3A0xd1640c46d8ca73b3!2sAddress%20Fountain%20Views%20Tower%202!5e0!3m2!1sen!2sae!4v1756470325954!5m2!1sen!2sae" allowfullscreen></iframe>
                 </div>
               </div>
             </div>
@@ -1516,7 +1264,7 @@
     <!-- End Footer -->
 
        <!-- WhatsApp Floating Button -->
-   <a href="https://wa.me/97155?text=Hello%20%F0%9F%91%8B%20Can%20I%20get%20more%20info%3F" class="whatsapp-float" target="_blank">
+   <a href="https://wa.me/971585959450?text=Hello%20%F0%9F%91%8B%20Can%20I%20get%20more%20info%3F" class="whatsapp-float" target="_blank">
      <i class="fa fa-whatsapp whatsapp-icon"></i>
    </a>
 
